@@ -1,4 +1,4 @@
-# 🎵 Spotify to YouTube Music Playlist Migrator
+#  Spotify to YouTube Music Playlist Migrator
 
 An automated Python tool that extracts a user's Spotify library and locates the exact matching tracks on YouTube Music. 
 
