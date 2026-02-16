@@ -48,12 +48,13 @@ for idx, item in enumerate(spotify_results['items']):
         if len(yt_results) > 0:
             top_match = yt_results[0]
             video_id = top_match['videoId']
-            print(f"    ✅ MATCH FOUND! YouTube ID: {video_id}")
+            print(f"     MATCH FOUND! YouTube ID: {video_id}")
         else:
-            print(f"    ❌ NO RESULTS: YouTube couldn't find this song.")
+            print(f"     NO RESULTS: YouTube couldn't find this song.")
             
     except Exception as e:
         # If the internet drops or the API crashes, it skips to the next song instead of dying
-        print(f"    ⚠️ ERROR: Something went wrong with this track. Skipping.")
+        print(f"     ERROR: Something went wrong with this track. Skipping.")
+
 
 print("\n--- SEARCH COMPLETE ---")
